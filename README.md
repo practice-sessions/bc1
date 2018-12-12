@@ -1,6 +1,6 @@
 # bc1
 
-This project is a training pilot project, will be done out in Ruby on Rails.
+This project is a training pilot project, will be done in Ruby on Rails.
 
 All contributors are obliged to open features branch on their local repos (on your local pc/laptop/workstation), and push in the name of the featues branch you have created locally.
 
