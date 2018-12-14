@@ -11,6 +11,7 @@ Please DO NOT push directly into master branch. In other words, DO NOT do a git 
 Contributors include:
 
 Mekarosi
-kneukneu(larsmickey)
+
+kneukneu
 
 Please add your name when you join. Thanks
