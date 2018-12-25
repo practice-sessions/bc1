@@ -4,11 +4,41 @@
     <title>Bc1</title>
     <%= csrf_meta_tags %>
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag  :default, media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag :default, "data-turbolinks-track" => true %>
   </head>
 
   <body>
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class='container'>
+        <a class="navbar-brand" href="#">Bootcampus</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Volunteer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Institution</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Volunteer Profile</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
     <div class="container">
       <%= yield %>
     </div>
